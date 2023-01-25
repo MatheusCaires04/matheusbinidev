@@ -25,7 +25,7 @@ const Header = () => {
           </li>
           <li>
             <a
-              href="/matheusbini/projects"
+              href="/projects"
               className="hover:text-orange hover:scale-95 block duration-200"
             >
               Projects
@@ -33,7 +33,7 @@ const Header = () => {
           </li>
           <li>
             <a
-              href="/matheusbini/skills"
+              href="/skills"
               className="hover:text-orange hover:scale-95 block duration-200"
             >
               Skills
@@ -41,7 +41,7 @@ const Header = () => {
           </li>
           <li>
             <a
-              href="/matheusbini/contact"
+              href="/contact"
               className="hover:text-orange hover:scale-95 block duration-200"
             >
               Contact
@@ -63,7 +63,7 @@ const Header = () => {
           </li>
           <li className="border-2 border-orange border-l-8 w-[80%] py-1">
             <a
-              href="/matheusbini/projects"
+              href="/projects"
               className="hover:text-orange hover:scale-95 block duration-200"
             >
               Projects
@@ -71,7 +71,7 @@ const Header = () => {
           </li>
           <li className="border-2 border-orange border-l-8 w-[80%] py-1">
             <a
-              href="/matheusbini/skills"
+              href="/skills"
               className="hover:text-orange hover:scale-95 block duration-200"
             >
               Skills
@@ -79,7 +79,7 @@ const Header = () => {
           </li>
           <li className="border-2 border-orange border-l-8 w-[80%] py-1">
             <a
-              href="/matheusbini/contact"
+              href="/contact"
               className="hover:text-orange hover:scale-95 block duration-200"
             >
               Contact

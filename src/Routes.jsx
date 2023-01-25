@@ -17,9 +17,9 @@ const Routes = () => {
       <Header />
       <ContainerRoutes>
         <Route exacth path="/" element={<Home />} />
-        <Route path="/matheusbini/projects" element={<Projects />} />
-        <Route path="/matheusbini/skills" element={<Skills />} />
-        <Route path="/matheusbini/contact" element={<Contact />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/skills" element={<Skills />} />
+        <Route path="/contact" element={<Contact />} />
       </ContainerRoutes>
     </BrowserRouter>
   );
