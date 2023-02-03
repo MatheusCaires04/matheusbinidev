@@ -48,4 +48,11 @@ export const projects = [
     url: "https://food-website-green-six.vercel.app/",
     git: "https://github.com/MatheusCaires04/portfolio",
   },
+  {
+    id: 7,
+    image: "/assets/projeto8.PNG",
+    techs: "VITE, TailwindCSS, Swiper Slide",
+    url: "https://foodabbraccio-clone.vercel.app/",
+    git: "https://github.com/MatheusCaires04/foodabbraccio",
+  },
 ];
