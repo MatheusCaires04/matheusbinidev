@@ -55,4 +55,11 @@ export const projects = [
     url: "https://foodabbraccio-clone.vercel.app/",
     git: "https://github.com/MatheusCaires04/foodabbraccio",
   },
+  {
+    id: 8,
+    image: "/assets/projeto9.PNG",
+    techs: "VITE, TailwindCSS",
+    url: "https://rentupconstruction-website.vercel.app/",
+    git: "https://github.com/MatheusCaires04/rentupconstruction-website",
+  },
 ];
