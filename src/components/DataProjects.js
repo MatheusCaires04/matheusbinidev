@@ -62,4 +62,18 @@ export const projects = [
     url: "https://rentupconstruction-website.vercel.app/",
     git: "https://github.com/MatheusCaires04/rentupconstruction-website",
   },
+  {
+    id: 9,
+    image: "/assets/projeto10.png",
+    techs: "VITE, TailwindCSS",
+    url: "https://mbstore.vercel.app/",
+    git: "https://github.com/MatheusCaires04/mbstore",
+  },
+  {
+    id: 10,
+    image: "/assets/projeto11.png",
+    techs: "VITE, TailwindCSS",
+    url: "https://lofi-life-clone.vercel.app/",
+    git: "https://github.com/MatheusCaires04/lofi.life-clone",
+  },
 ];
