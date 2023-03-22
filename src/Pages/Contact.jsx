@@ -23,7 +23,7 @@ const Contact = () => {
             Contact us via links or send an email
           </span>
           <div className="grid grid-cols-1 md:grid-cols-2 w-full mt-5 md:mt-10">
-            <div className="flex flex-col">
+            <div className="flex flex-col" data-aos="fade-down">
               <div className="flex justify-center gap-4 text-2xl sm:text-3xl mt-5 md:mt-10 w-full">
                 <a
                   href="https://www.facebook.com/matheus.bini.52/"
@@ -62,6 +62,7 @@ const Contact = () => {
                 action="https://formsubmit.co/matheus-bini@hotmail.com"
                 method="POST"
                 className="flex flex-col gap-3 text-black"
+                data-aos="fade-left"
               >
                 <input
                   type="hidden"
