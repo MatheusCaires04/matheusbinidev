@@ -18,7 +18,7 @@ const Home = () => {
     <div className="pt-20 px-8 h-screen w-full bg-blue-dark text-white">
       <div className="grid grid-cols-1 md:grid-cols-2 max-w-[1000px] mx-auto h-full">
         <div className="h-full flex flex-col justify-center items-center order-1 md:order-[-1] md:items-start">
-          <span className="flex gap-2 text-2xl sm:text-3xl font-bold">
+          <span className="flex flex-col sm:flex-row gap-2 text-2xl sm:text-3xl font-bold">
             Hi, my name is
             <span className="text-orange">
               <Typewriter

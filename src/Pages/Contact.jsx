@@ -61,8 +61,14 @@ const Contact = () => {
               <form
                 action="https://formsubmit.co/matheus-bini@hotmail.com"
                 method="POST"
-                className="flex flex-col gap-3"
+                className="flex flex-col gap-3 text-black"
               >
+                <input
+                  type="hidden"
+                  name="_next"
+                  value="http://127.0.0.1:5173/"
+                ></input>
+                <input type="hidden" name="_captcha" value="false"></input>
                 <input
                   type="text"
                   name="name"
@@ -80,10 +86,17 @@ const Contact = () => {
                 <textarea
                   name="message"
                   id="message"
-                  rows="7"
+                  rows="5"
                   placeholder="Message"
                   className="resize-none outline-none border-2 border-orange rounded-lg px-2 py-1"
                 ></textarea>
+                <input
+                  type="submit"
+                  name="submit"
+                  id="submit"
+                  value="Enviar"
+                  className="outline-none bg-orange border-2 border-orange rounded-lg px-2 py-1 font-medium text-white cursor-pointer hover:bg-orange/80 duration-150"
+                />
               </form>
             </div>
           </div>
