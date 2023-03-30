@@ -76,4 +76,11 @@ export const projects = [
     url: "https://lofi-life-clone.vercel.app/",
     git: "https://github.com/MatheusCaires04/lofi.life-clone",
   },
+  {
+    id: 11,
+    image: "/assets/projeto12.png",
+    techs: "VITE, TailwindCSS",
+    url: "https://disney-clone-tau-lemon.vercel.app/",
+    git: "https://github.com/MatheusCaires04/disney-clone",
+  },
 ];
